@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import Ad from '@/components/ad'
+import ad from '@/components/ad'
 
 export default function Home() {
   return (
@@ -14,7 +14,8 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         Welcome to the home page
-        <Ad />
+        <ad />
+
       </main>
     </>
   )
